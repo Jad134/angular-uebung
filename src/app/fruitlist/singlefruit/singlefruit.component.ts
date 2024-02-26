@@ -18,6 +18,8 @@ export class SinglefruitComponent {
   reviews:[{name: "", text: ""},{name: "", text: ""}],
 };
 
+
+
 inputData = "";
 
 @Output()fruitname = new EventEmitter<string>()
